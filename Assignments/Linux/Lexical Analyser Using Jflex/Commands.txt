@@ -1,0 +1,7 @@
+flex lexer.l
+gcc -o lexer lex.yy.c -lfl
+./lexer Text.txt
+
+
+sudo apt install flex
+
